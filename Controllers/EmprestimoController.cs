@@ -22,15 +22,20 @@ namespace Biblioteca.Controllers
         [HttpPost]
         public IActionResult Cadastro(CadEmprestimoViewModel viewModel)
         {
-            EmprestimoService emprestimoService = new EmprestimoService();
-            
-            if(viewModel.Emprestimo.Id == 0)
-            {
-                emprestimoService.Inserir(viewModel.Emprestimo);
+            if (viewModel.Emprestimo.NomeUsuario == "" || viewModel.Emprestimo.Telefone == "" || viewModel.Emprestimo.DataEmprestimo == null || viewModel.Emprestimo.DataDevolucao == null ){
+                
             }
-            else
-            {
-                emprestimoService.Atualizar(viewModel.Emprestimo);
+            else{
+                EmprestimoService emprestimoService = new EmprestimoService();
+                
+                if(viewModel.Emprestimo.Id == 0)
+                {
+                    emprestimoService.Inserir(viewModel.Emprestimo);
+                }
+                else
+                {
+                    emprestimoService.Atualizar(viewModel.Emprestimo);
+                }
             }
             return RedirectToAction("Listagem");
         }
