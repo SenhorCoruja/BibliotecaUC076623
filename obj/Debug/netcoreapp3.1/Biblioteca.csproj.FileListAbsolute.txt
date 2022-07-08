@@ -53,7 +53,6 @@ C:\Users\marci\Downloads\SENAC\Momentos Online\MO4 - Manutenção\Biblioteca\obj
 C:\Users\marci\Downloads\SENAC\Momentos Online\MO4 - Manutenção\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
 C:\Users\marci\Downloads\SENAC\Momentos Online\MO4 - Manutenção\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\cadastroRealizado.cshtml.g.cs
 C:\Users\marci\Downloads\SENAC\Momentos Online\MO4 - Manutenção\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\editarUsuario.cshtml.g.cs
-C:\Users\marci\Downloads\SENAC\Momentos Online\MO4 - Manutenção\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Livro\rascunho-listagem.cshtml.g.cs
 C:\Users\marci\Downloads\SENAC\Momentos Online\MO4 - Manutenção\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\ListaDeUsuarios.cshtml.g.cs
 C:\Users\marci\Downloads\SENAC\Momentos Online\MO4 - Manutenção\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\RegistrarUsuarios.cshtml.g.cs
 C:\Users\marci\Downloads\SENAC\Momentos Online\MO4 - Manutenção\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\NeedAdmin.cshtml.g.cs
